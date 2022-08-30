@@ -3,11 +3,16 @@
     align-items: center;
     justify-content: space-between;
     height: 10%;
+    margin-top: 10px;
+    padding: 0 10px;
+    background-color: rgb(107, 230, 210);
 }
 
 .mic-set {
     display: flex;
     align-items: center;
+    width: 15%;
+    justify-content: space-between;
 }
 
 .nav-list {
@@ -17,4 +22,9 @@
 
 .nav-list li {
     list-style: none;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
 }

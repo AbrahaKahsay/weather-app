@@ -10,7 +10,7 @@ function Navbar() {
     <div>
        <nav className='nav-container'>
         <ul className='nav-list'>
-            <li><NavLink className='icons' to='/'><img src={Back} alt="back" /></NavLink></li>
+            <li><NavLink to='/'><img className='icons' src={Back} alt="back" /></NavLink></li>
             <li><NavLink className='detail' to="/city">Details</NavLink></li>
         </ul>
         <div className='mic-set'>
