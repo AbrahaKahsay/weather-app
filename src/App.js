@@ -4,7 +4,7 @@ import React from 'react'
 function App() {
   return (
     <div className='app-container'>
-      <div>
+      <div className='app'>
         <div className='top'>
           <div className='location'>
             <p>Jimma</p>
