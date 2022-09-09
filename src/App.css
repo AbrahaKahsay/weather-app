@@ -10,6 +10,18 @@
   color: white;
 }
 
+.search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app-container input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .app-container::before {
   content: '';
   background: url('./images/sunset.jpg') no-repeat center center/cover;
@@ -34,8 +46,18 @@
   justify-content: space-between;
   max-width: 70%;
   padding: 0 1rem;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .bold {
   font-weight: 700;
+}
+
+.description {
+  position: relative;
+  right: -80%;
+  transform-origin: 0 0;
+  transform: rotate(270deg);
 }
