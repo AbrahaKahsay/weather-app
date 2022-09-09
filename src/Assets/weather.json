@@ -1,0 +1,27 @@
+{
+  "coord": { "lon": 36.8333, "lat": 7.6667 },
+  "weather": [
+    { "id": 501, "main": "Rain", "description": "moderate rain", "icon": "10d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 294.19,
+    "feels_like": 294.6,
+    "temp_min": 294.19,
+    "temp_max": 294.19,
+    "pressure": 1011,
+    "humidity": 86,
+    "sea_level": 1011,
+    "grnd_level": 832
+  },
+  "visibility": 10000,
+  "wind": { "speed": 0.65, "deg": 216, "gust": 1.01 },
+  "rain": { "1h": 1.63 },
+  "clouds": { "all": 100 },
+  "dt": 1661862745,
+  "sys": { "country": "ET", "sunrise": 1661829918, "sunset": 1661874115 },
+  "timezone": 10800,
+  "id": 333772,
+  "name": "Jimma",
+  "cod": 200
+}
