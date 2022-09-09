@@ -35,3 +35,7 @@
   max-width: 70%;
   padding: 0 1rem;
 }
+
+.bold {
+  font-weight: 700;
+}
