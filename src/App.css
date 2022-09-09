@@ -21,6 +21,7 @@
   border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   background: rgba(255, 255, 255, 0.2);
+  color: white;
 }
 
 ::placeholder {
@@ -52,9 +53,20 @@
   max-width: 70%;
   padding: 0 1rem;
   text-align: center;
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.2);
+  align-items: center;
+ 
 }
+
+/* .feels,
+.wind,
+.humidity{
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 1rem;
+  text-align: center;
+  align-items: center;
+  max-width: 30%;
+} */
 
 .bold {
   font-weight: 700;
