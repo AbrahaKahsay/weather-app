@@ -32,4 +32,6 @@
 .bottom {
   display: flex;
   justify-content: space-between;
+  max-width: 70%;
+  padding: 0 1rem;
 }
