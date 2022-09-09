@@ -9,13 +9,14 @@ function App() {
 
   const apiKey = '6ba82cfd5a63c82e9583996928fd44ff';
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=6ba82cfd5a63c82e9583996928fd44ff`
 
   const searchLocation = (event) => {
     if(event.key === 'Enter'){
       axios.get(url)
     .then((response) => {
       setData(response.data)
+      console.log(response.data)
     })
     } 
   } 
