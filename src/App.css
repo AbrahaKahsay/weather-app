@@ -1,0 +1,80 @@
+/* body {
+  text-align: center;
+} */
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app-container input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.app-container::before {
+  content: '';
+  background: url('./images/sunset.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1rem;
+  gap: 200px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  padding: 0 1rem;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+/* .feels,
+.wind,
+.humidity{
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 1rem;
+  text-align: center;
+  align-items: center;
+  max-width: 30%;
+} */
+
+.bold {
+  font-weight: 700;
+}
+
+.description {
+  position: relative;
+  right: -80%;
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+}
